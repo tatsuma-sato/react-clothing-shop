@@ -37,7 +37,7 @@ const NewArrivals = () => {
       {/* Products List */}
       <div className="list">
         {Array.from({ length: 10 }, (v, i) => {
-          return <ProductCard img={shirt} name="shirt" price={30} />;
+          return <ProductCard img={shirt} name="shirt" price={30} key={i} />;
         })}
       </div>
     </Container>

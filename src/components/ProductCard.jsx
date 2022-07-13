@@ -1,4 +1,5 @@
 import React from "react";
+import img from "../assets/images/mens_jacket_1.jpg";
 
 const ProductCard = ({ img, name, price }) => {
   return (
